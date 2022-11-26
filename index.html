@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="main.css" rel="stylesheet"> 
+    <title>Validador</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Validador com HTML & Javascript</h1>
+
+        <form id="formulario">
+            <input type="number" id="primeiro-numero" required placeholder="Digite o primeiro número">
+            <input type="number" id="segundo-numero" required placeholder="Digite o segundo número">
+            <button id="botao-enviar" type="submit">Enviar</button>
+        </form>
+
+        <p class="mensagem-sucesso">
+            Sim, o segundo número é maior que o primeiro.
+        </p>
+
+        <p class="mensagem-erro">
+            O primeiro número é maior que o segundo.
+        </p>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
